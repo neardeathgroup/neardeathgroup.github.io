@@ -28,17 +28,17 @@
 /* Get Started Section
 --------------------------------*/
 #about {
-  background: #fff;
+  background: #f8ecc2;
   padding: 80px 0;
-  
+
   .about-container {
     background: url(../img/about-img.jpg) left top no-repeat;
   }
-  
+
   .about-content {
-    background: #fff;
+    background: #f8ecc2;
   }
-  
+
   .about-title {
     color: #333;
     font-weight: 700;
@@ -61,7 +61,7 @@
   background: linear-gradient(rgba(255, 255 ,255 , .9), rgba(255, 255 ,255 , .9)), url("../img/services-bg.jpg") fixed center center;
   background-size: cover;
   padding: 80px 0 60px 0;
-  
+
   .service-item {
     margin-bottom: 20px;
   }
@@ -73,16 +73,16 @@
     border-radius: 50%;
     transition: 0.5s;
     border: 1px solid $accent-color;
-    
+
     i {
-      color: #fff;
+      color: #f8ecc2;
       font-size: 24px;
     }
 
   }
-  
+
   .service-item:hover .service-icon {
-    background: #fff;
+    background: #f8ecc2;
     i {
       color: $accent-color;
     }
@@ -99,31 +99,31 @@
     }
 
   }
-  
+
   .service-description {
     margin-left: 80px;
     line-height: 24px;
   }
-  
+
 }
 
 /* Subscribe Section
 --------------------------------*/
 #subscribe {
   background: linear-gradient(rgba(0, 0 ,0 , .6), rgba(0, 0 ,0 , .6)), url(../img/subscribe-bg.jpg) fixed center center;
-  background-size: cover; 
+  background-size: cover;
   padding:  80px 0;
-  
+
   .subscribe-title {
-    color: #fff;
+    color: #f8ecc2;
     font-size: 28px;
     font-weight: 700;
   }
-  
+
   .subscribe-text {
-    color: #fff;
+    color: #f8ecc2;
   }
-  
+
   .subscribe-btn-container {
     text-align: center;
     padding-top: 20px;
@@ -140,8 +140,8 @@
     border-radius: 2px;
     transition: 0.5s;
     margin: 10px;
-    border: 2px solid #fff;
-    color: #fff;
+    border: 2px solid #f8ecc2;
+    color: #f8ecc2;
     &:hover {
       background: $accent-color;
       border: 2px solid $accent-color;
@@ -153,9 +153,9 @@
 /* Portfolio Section
 --------------------------------*/
 #portfolio {
-  background: #fff;
+  background: #f8ecc2;
   padding: 80px 0;
-  
+
   .portfolio-item {
     background-position: center center;
     background-size: cover;
@@ -166,16 +166,16 @@
     display: table;
     overflow: hidden;
     margin-bottom: 30px;
-    
+
     .details {
       height: 260px;
-      background: #fff;
+      background: #f8ecc2;
       display: table-cell;
       vertical-align: middle;
       opacity: 0;
       transition: 0.3s;
       text-align: center;
-      
+
       h4 {
         font-size: 16px;
         transition: transform 0.3s, opacity 0.3s;
@@ -183,7 +183,7 @@
         font-weight: 700;
         color: $heading-color;
       }
-      
+
       span {
         display: block;
         color: $text-color;
@@ -192,10 +192,10 @@
         transform: translate3d(0, 15px, 0);
       }
     }
-    
+
     &:hover .details {
       opacity: 0.8;
-      
+
       h4 {
         transform: translate3d(0, 0, 0);
       }
@@ -212,45 +212,45 @@
 #testimonials {
   background: #f6f6f6;
   padding: 80px 0;
-  
+
   .profile {
     text-align: center;
-    
+
     .pic {
       border-radius:50%;
-      border:6px solid #fff;
+      border:6px solid #f8ecc2;
       margin-bottom: 15px;
       overflow: hidden;
       height: 260px;
       width: 260px;
-      
+
       img {
         max-width: 100%;
       }
 
     }
-    
+
     h4 {
       font-weight: 700;
       color: $accent-color;
       margin-bottom: 5px;
     }
-    
+
     span {
       color: $heading-color;
     }
-    
+
   }
-  
+
   .quote {
     position:relative;
-    background:#fff;
+    background:#f8ecc2;
     padding: 60px;
     margin-top: 40px;
     font-size: 16px;
     font-style: italic;
     border-radius: 5px;
-    
+
     b {
       display: inline-block;
       font-size: 22px;
@@ -258,7 +258,7 @@
       position: relative;
       top: -8px;
     }
-    
+
     small{
        display: inline-block;
       right: -9px;
@@ -272,9 +272,9 @@
 /* Team Section
 --------------------------------*/
 #team {
-  background: #fff;
+  background: #f8ecc2;
   padding: 80px 0 60px 0;
-  
+
   .member {
     text-align: center;
     margin-bottom: 20px;
@@ -282,24 +282,24 @@
       margin-bottom: 15px;
       overflow: hidden;
       height: 260px;
-      
+
       img {
         max-width: 100%;
       }
 
     }
-    
+
     h4 {
       font-weight: 700;
       margin-bottom: 2px;
     }
-    
+
     span {
       font-style: italic;
       display: block;
       font-size: 13px;
     }
-    
+
     .social {
       margin-top: 15px;
       a {
@@ -309,7 +309,7 @@
         }
 
       }
-      
+
       i {
         font-size: 18px;
         margin: 0 2px;
@@ -326,25 +326,25 @@
 #contact {
   background: #f7f7f7;
   padding: 80px 0;
-  
+
   .info {
     color: $heading-color;
-    
+
     i {
       font-size: 32px;
       color: $accent-color;
       float: left;
     }
-    
+
     p {
       padding: 0 0 10px 50px;
       line-height: 24px;
     }
-    
+
   }
-  
+
   .form {
-    
+
     #sendmessage {
       color: $accent-color;
       border:1px solid $accent-color;
@@ -368,7 +368,7 @@
     #sendmessage.show, #errormessage.show, .show {
       display:block;
     }
-    
+
     .validation {
       color: red;
       display:none;
@@ -376,18 +376,18 @@
       font-weight:400;
       font-size:13px;
     }
-    
+
     input, textarea {
       border-radius: 0;
       box-shadow: none;
 
     }
-    
+
     button[type="submit"] {
       background: $accent-color;
       border: 0;
       padding: 10px 24px;
-      color: #fff;
+      color: #f8ecc2;
       transition: 0.4s;
       &:hover {
         background: lighten($accent-color, 10%);

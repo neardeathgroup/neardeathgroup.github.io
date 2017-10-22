@@ -6,15 +6,18 @@
 */
 /*--------------------------------------------------------------
 # General
+#
+# #f8ecc2 - Paper
+# #6b6793 - Purple
 --------------------------------------------------------------*/
 body {
-  background: #fff;
-  color: #666666;
+  background: #f8ecc2;
+  color: #584c46;
   font-family: "Open Sans", sans-serif;
 }
 
 a {
-  color: #03C4EB;
+  color: #6b6793;
   transition: 0.5s;
 }
 
@@ -45,7 +48,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 100%;
   overflow: visible;
-  background: #fff url("../img/preloader.svg") no-repeat center center;
+  background: #f8ecc2 url("../img/preloader.svg") no-repeat center center;
 }
 
 /* Back to top button */
@@ -53,7 +56,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   display: none;
   background: rgba(0, 0, 0, 0.2);
-  color: #fff;
+  color: #f8ecc2;
   padding: 6px 12px 9px 12px;
   font-size: 16px;
   border-radius: 2px;
@@ -70,13 +73,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .back-to-top:focus {
   background: rgba(0, 0, 0, 0.2);
-  color: #fff;
+  color: #f8ecc2;
   outline: none;
 }
 
 .back-to-top:hover {
-  background: #03C4EB;
-  color: #fff;
+  background: #6b6793;
+  color: #f8ecc2;
 }
 
 /*--------------------------------------------------------------
@@ -112,7 +115,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   line-height: 48px;
   text-transform: uppercase;
-  color: #fff;
+  color: #f8ecc2;
 }
 
 @media (max-width: 768px) {
@@ -156,25 +159,27 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-get-started {
-  background: #03C4EB;
-  border: 2px solid #03C4EB;
-  color: #fff;
+  background: #6b6793;
+  border: 2px solid #6b6793;
+  color: #f8ecc2;
 }
 
 #hero .btn-get-started:hover {
   background: none;
-  border: 2px solid #fff;
-  color: #fff;
+  border: 2px solid #f8ecc2;
+  color: #f8ecc2;
 }
 
 #hero .btn-services {
-  border: 2px solid #fff;
-  color: #fff;
+  background: #6b6793;
+  border: 2px solid #6b6793;
+  color: #f8ecc2;
 }
 
 #hero .btn-services:hover {
-  background: #03C4EB;
-  border: 2px solid #03C4EB;
+  background: none;
+  border: 2px solid #f8ecc2;
+  color: #f8ecc2;
 }
 
 /*--------------------------------------------------------------
@@ -202,7 +207,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header #logo h1 a, #header #logo h1 a:hover {
-  color: #fff;
+  color: #f8ecc2;
 }
 
 #header #logo img {
@@ -303,7 +308,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px 15px;
   text-decoration: none;
   display: inline-block;
-  color: #fff;
+  color: #f8ecc2;
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
   font-size: 14px;
@@ -311,7 +316,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover, .nav-menu li:hover > a, .nav-menu .menu-active > a {
-  color: #03C4EB;
+  color: #6b6793;
 }
 
 .nav-menu ul {
@@ -320,8 +325,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu ul li {
-  background: #fff;
-  border-top: 1px solid #f4f4f4;
+  background: #f8ecc2;
+  border-top: 1px solid #f8ecc2;
 }
 
 .nav-menu ul li:first-child {
@@ -329,11 +334,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu ul li:hover {
-  background: #f6f6f6;
+  background: #6b6793;
 }
 
 .nav-menu ul li a {
-  color: #333;
+  color: #6b6793;
 }
 
 .nav-menu ul ul {
@@ -356,7 +361,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #mobile-nav-toggle i {
-  color: #fff;
+  color: #f8ecc2;
 }
 
 @media (max-width: 768px) {
@@ -390,7 +395,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #mobile-nav ul li a {
-  color: #fff;
+  color: #f8ecc2;
   font-size: 16px;
   overflow: hidden;
   padding: 10px 22px 10px 15px;
@@ -402,7 +407,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #mobile-nav ul li a:hover {
-  color: #fff;
+  color: #f8ecc2;
 }
 
 #mobile-nav ul li li {
@@ -415,15 +420,15 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 99;
   padding: 15px;
   cursor: pointer;
-  color: #fff;
+  color: #f8ecc2;
 }
 
 #mobile-nav ul .menu-has-children i.fa-chevron-up {
-  color: #03C4EB;
+  color: #6b6793;
 }
 
 #mobile-nav ul .menu-item-active {
-  color: #03C4EB;
+  color: #6b6793;
 }
 
 #mobile-body-overly {
@@ -447,7 +452,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 body.mobile-nav-active #mobile-nav-toggle {
-  color: #fff;
+  color: #f8ecc2;
 }
 
 /*--------------------------------------------------------------
@@ -471,7 +476,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .section-title-divider {
   width: 50px;
   height: 3px;
-  background: #03C4EB;
+  background: #6b6793;
   margin: 0 auto;
   margin-bottom: 20px;
 }
@@ -479,7 +484,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Get Started Section
 --------------------------------*/
 #about {
-  background: #fff;
+  background: #f8ecc2;
   padding: 80px 0;
 }
 
@@ -488,7 +493,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .about-content {
-  background: #fff;
+  background: #f8ecc2;
 }
 
 #about .about-title {
@@ -519,24 +524,24 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #services .service-icon {
   float: left;
-  background: #03C4EB;
+  background: #6b6793;
   padding: 16px;
   border-radius: 50%;
   transition: 0.5s;
-  border: 1px solid #03C4EB;
+  border: 1px solid #6b6793;
 }
 
 #services .service-icon i {
-  color: #fff;
+  color: #f8ecc2;
   font-size: 24px;
 }
 
 #services .service-item:hover .service-icon {
-  background: #fff;
+  background: #f8ecc2;
 }
 
 #services .service-item:hover .service-icon i {
-  color: #03C4EB;
+  color: #6b6793;
 }
 
 #services .service-title {
@@ -564,13 +569,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #subscribe .subscribe-title {
-  color: #fff;
+  color: #f8ecc2;
   font-size: 28px;
   font-weight: 700;
 }
 
 #subscribe .subscribe-text {
-  color: #fff;
+  color: #f8ecc2;
 }
 
 #subscribe .subscribe-btn-container {
@@ -589,19 +594,19 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 2px;
   transition: 0.5s;
   margin: 10px;
-  border: 2px solid #fff;
-  color: #fff;
+  border: 2px solid #f8ecc2;
+  color: #f8ecc2;
 }
 
 #subscribe .subscribe-btn:hover {
-  background: #03C4EB;
-  border: 2px solid #03C4EB;
+  background: #6b6793;
+  border: 2px solid #6b6793;
 }
 
 /* Portfolio Section
 --------------------------------*/
 #portfolio {
-  background: #fff;
+  background: #f8ecc2;
   padding: 80px 0;
 }
 
@@ -619,7 +624,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #portfolio .portfolio-item .details {
   height: 260px;
-  background: #fff;
+  background: #f8ecc2;
   display: table-cell;
   vertical-align: middle;
   opacity: 0;
@@ -676,7 +681,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #testimonials .profile .pic {
   border-radius: 50%;
-  border: 6px solid #fff;
+  border: 6px solid #f8ecc2;
   margin-bottom: 15px;
   overflow: hidden;
   height: 260px;
@@ -689,7 +694,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #testimonials .profile h4 {
   font-weight: 700;
-  color: #03C4EB;
+  color: #6b6793;
   margin-bottom: 5px;
 }
 
@@ -699,7 +704,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #testimonials .quote {
   position: relative;
-  background: #fff;
+  background: #f8ecc2;
   padding: 60px;
   margin-top: 40px;
   font-size: 16px;
@@ -725,7 +730,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Team Section
 --------------------------------*/
 #team {
-  background: #fff;
+  background: #f8ecc2;
   padding: 80px 0 60px 0;
 }
 
@@ -764,7 +769,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #team .member .social a:hover {
-  color: #03C4EB;
+  color: #6b6793;
 }
 
 #team .member .social i {
@@ -785,7 +790,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #contact .info i {
   font-size: 32px;
-  color: #03C4EB;
+  color: #6b6793;
   float: left;
 }
 
@@ -795,8 +800,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form #sendmessage {
-  color: #03C4EB;
-  border: 1px solid #03C4EB;
+  color: #6b6793;
+  border: 1px solid #6b6793;
   display: none;
   text-align: center;
   padding: 15px;
@@ -832,10 +837,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form button[type="submit"] {
-  background: #03C4EB;
+  background: #6b6793;
   border: 0;
   padding: 10px 24px;
-  color: #fff;
+  color: #f8ecc2;
   transition: 0.4s;
 }
 
@@ -877,7 +882,7 @@ a.gmap-btn.btn-hide {
 }
 a.gmap-btn{
 	height: auto;
-	color: #fff;
+	color: #f8ecc2;
 	text-transform: uppercase;
 	text-align: center;
 	position: relative;
@@ -904,7 +909,7 @@ a.gmap-btn:focus {
 
 #map .google-map-big-button:hover{
 	background:#3498db;
-	color:#fff;
+	color:#f8ecc2;
 }
 
 /* Google Map Div */
