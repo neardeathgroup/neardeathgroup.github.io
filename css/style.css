@@ -6,7 +6,7 @@
 */
 /*--------------------------------------------------------------
 # General
-#
+# #584c46 - Text
 # #f8ecc2 - Paper
 # #6b6793 - Purple
 --------------------------------------------------------------*/
@@ -462,7 +462,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 .section-title {
   font-size: 32px;
-  color: #111;
+  color: #584c46;
   text-transform: uppercase;
   text-align: center;
   font-weight: 700;
@@ -780,7 +780,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Contact Section
 --------------------------------*/
 #contact {
-  background: #f7f7f7;
+  background: #f8ecc2;
   padding: 80px 0;
 }
 
@@ -790,7 +790,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #contact .info i {
   font-size: 32px;
-  color: #6b6793;
+  color: #584c46;
   float: left;
 }
 
@@ -984,15 +984,15 @@ a.gmap-btn:focus {
 
 .myf footer {
     font-weight: 500;
-    color: #eaeaea;
+    color: #f8ecc2;
 }
 
 .myf footer a {
-    color: #f0f0f0;
+    color: #f8ecc2;
 }
 .myf footer a:hover,
 .myf footer a:focus {
-    color: #f0f0f0;
+    color: #6b6793;
     text-decoration: underline;
 }
 .myf footer .container {
@@ -1014,7 +1014,7 @@ a.gmap-btn:focus {
     margin: 0 0 13px 0;
     font-size: 16px;
     line-height: 2;
-    color: #f0f0f0;
+    color: #f8ecc2;
 }
 h3.footer-heading:first-letter {
     border-bottom: 4px double #ccc;
@@ -1124,14 +1124,14 @@ h3.footer-heading:first-letter {
     -moz-border-radius-bottomleft: 0;
     -webkit-border-bottom-left-radius: 0;
     border-bottom-left-radius: 0;
-    background-color: #406da4;
+    background-color: #6b6793;
     font-size: 14px;
     padding: 10px;
     min-width: 93px;
 }
 .myf .newsletter-form .input-group-lg > .input-group-btn > .btn:hover,
 .myf .newsletter-form .input-group-lg > .input-group-btn > .btn:focus {
-    background-color: #396192;
+    background-color: #48456b;
 }
 .myf .newsletter-form .input-group-lg > .input-group-btn > .btn i {
     display: none;
