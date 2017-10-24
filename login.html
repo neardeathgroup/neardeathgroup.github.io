@@ -96,17 +96,40 @@
     <!--==========================
       Contact Section
     ============================-->
-      <section id="contact">
+      <section id="login">
         <div class="container wow fadeInUp">
           <div class="row">
             <div class="col-md-12">
-              <h3 class="section-title">Purchase Tickets</h3>
-              <div class="section-title-divider"></div>
-              <p class="section-description">
-                <div style="width:100%; text-align:left;">
-                  <iframe src="https://ticketbud.com/events/c2494c12-b8cb-11e7-8e82-ff21d02f6097?from=iframe" frameborder="0" height="1000" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe>
+              <h3 class="section-title">Admin Login</h3>
+              <form action="/action_page.php">
+                <div class="imgcontainer">
+                  <img src="./img/photo.jpg" alt="Avatar" class="avatar">
                 </div>
-              </p>
+
+                <div class="container">
+                  <label><b>Username</b></label>
+                  <input type="text" placeholder="Enter Username" name="uname" required>
+
+                  <label><b>Password</b></label>
+                  <input type="password" placeholder="Enter Password" name="psw" required>
+
+                  <button type="submit" onclick="check(this.form)">Login</button>
+                </div>
+                <script language="javascript">
+                function check(form)/*function to check userid & password*/
+                {
+                  /*the following code checkes whether the entered userid and password are matching*/
+                  if(form.uname.value == "admin" && form.psw.value == "admin")
+                  {
+                    window.open('updates.html')/*opens the target page while Id & password matches*/
+                  }
+                  else
+                  {
+                    alert("Error Password or Username")/*displays error message*/
+                  }
+                }
+                </script>
+              </form>
             </div>
           </div>
 
