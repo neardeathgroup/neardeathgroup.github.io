@@ -1,4 +1,4 @@
-/*
+font-size: 26px/*
   Theme Name: Imperial
   Theme URL: https://bootstrapmade.com/imperial-free-onepage-bootstrap-template/
   Author: BootstrapMade
@@ -133,7 +133,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 768px) {
   #hero h2 {
-    font-size: 24px;
+    font-size: 26px;
     line-height: 26px;
     margin-bottom: 30px;
   }
@@ -312,7 +312,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #f8ecc2;
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
-  font-size: 14px;
+  font-size: 16px;
   outline: none;
 }
 
@@ -355,7 +355,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 20px 20px 0 0;
   border: 0;
   background: none;
-  font-size: 24px;
+  font-size: 26px;
   display: none;
   transition: all 0.4s;
   outline: none;
@@ -684,8 +684,8 @@ span.psw {
 
 #about .container {
   position: relative;
-  width: 70%;
-  height: 70%;
+  width: 85%;
+  height: 85%;
 }
 
 #about .image {
@@ -704,7 +704,7 @@ span.psw {
   left: 1;
   right: 1;
   height: 100%;
-  width: 96%;
+  width: 97%;
   opacity: 0;
   transition: .5s ease;
   color: #f8ecc2;
@@ -842,7 +842,7 @@ span.psw {
 
 #testimonials .quote b {
   display: inline-block;
-  font-size: 22px;
+  font-size: 26px;
   left: -9px;
   position: relative;
   top: -8px;
@@ -906,14 +906,14 @@ span.psw {
 }
 
 #team .member .social i {
-  font-size: 18px;
+  font-size: 20px;
   margin: 0 2px;
 }
 
 #team .container {
   position: relative;
-  width: 70%;
-  height: 70%;
+  width: 85%;
+  height: 85%;
 }
 
 #team .image {
@@ -932,7 +932,7 @@ span.psw {
   left: 1;
   right: 1;
   height: 100%;
-  width: 96%;
+  width: 97%;
   opacity: 0;
   transition: .5s ease;
   color: #584c46;
@@ -1125,7 +1125,7 @@ a.gmap-btn:focus {
 
 .demo {
     font-family: "Open Sans", sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     color: #444;
 }
 /* Hyperlink begin */
@@ -1210,7 +1210,7 @@ h3.footer-heading:first-letter {
 .myf .copyright {
     padding: 15px 0;
     background-color: rgba(12, 12, 12, 0.2);
-    font-size: 12px;
+    font-size: 14px;
     line-height: 10px
 }
 .myf .footer-minimal .copyright {
@@ -1272,7 +1272,7 @@ h3.footer-heading:first-letter {
     margin-top: 20px;
 }
 .myf .newsletter-form .form-control {
-    font-size: 14px;
+    font-size: 16px;
 }
 .myf .newsletter-form .input-group-lg > .form-control,
 .myf .newsletter-form .input-group-lg > .input-group-btn > .btn {
@@ -1308,7 +1308,7 @@ h3.footer-heading:first-letter {
     -webkit-border-bottom-left-radius: 0;
     border-bottom-left-radius: 0;
     background-color: #6b6793;
-    font-size: 14px;
+    font-size: 16px;
     padding: 10px;
     min-width: 93px;
 }
