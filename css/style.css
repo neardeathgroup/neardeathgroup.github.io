@@ -50,6 +50,10 @@ h1, h2, h3, h4, h5, h6 {
   height: 100%;
   overflow: visible;
   background: #f8ecc2 url("../img/preloader.svg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 new_event_page_promoter-logo{
@@ -117,7 +121,10 @@ input[type=submit]:hover {
   display: table;
   width: 100%;
   height: 100vh;
-  background: url(../img/hero-bg.jpg) top center fixed;
+  background: url(../img/hero-bg.jpg) center center fixed no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
 }
 
@@ -215,7 +222,7 @@ input[type=submit]:hover {
 --------------------------------------------------------------*/
 #header {
   background: #111;
-  padding: 20px 0;
+  padding: 5px 0;
   height: 90px;
 }
 
@@ -224,6 +231,7 @@ input[type=submit]:hover {
 }
 
 #header #logo h1 {
+
   font-size: 36px;
   margin: 0;
   padding: 6px 0;
@@ -234,8 +242,23 @@ input[type=submit]:hover {
   text-transform: uppercase;
 }
 
-#header #logo h1 a, #header #logo h1 a:hover {
+.nav-menu a {
+  padding: 10px 15px;
+  text-decoration: none;
+  display: inline-block;
   color: #f8ecc2;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  outline: none;
+}
+
+.nav-menu a:hover, .nav-menu li:hover > a, .nav-menu .menu-active > a {
+  color: #6b6793;
+}
+
+#header #logo h1 a, #header #logo h1 a:hover {
+  color: #0000000;
 }
 
 #header #logo img {
@@ -375,11 +398,12 @@ input[type=submit]:hover {
 
 /* Mobile Nav Toggle */
 #mobile-nav-toggle {
-  position: fixed;
-  right: 0;
+  position: absolute;
+    right: 0px;
+    width: 100px;
   top: 0;
   z-index: 999;
-  margin: 20px 20px 0 0;
+  margin: 20px 0 0 0;
   border: 0;
   background: none;
   font-size: 26px;
@@ -406,8 +430,8 @@ input[type=submit]:hover {
   bottom: 0;
   z-index: 998;
   background: rgba(0, 0, 0, 0.9);
-  left: -260px;
-  width: 260px;
+  left: -400px;
+  width: 400px;
   overflow-y: auto;
   transition: 0.4s;
 }
@@ -585,7 +609,11 @@ span.psw {
 }
 
 #intro .intro-container {
-  background: url(../img/intro-img.jpg) left top no-repeat;
+  background: url(../img/intro-img.jpg) center center fixed no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 #intro .intro-content {
@@ -609,7 +637,10 @@ span.psw {
 /* Services Section
 --------------------------------*/
 #services {
-  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("img/services-bg.jpg") fixed center center;
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("img/services-bg.jpg") center center fixed no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   padding: 80px 0 60px 0;
 }
@@ -659,8 +690,11 @@ span.psw {
 /* about Section
 --------------------------------*/
 #about {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/about-bg.jpg") fixed center center;
-  background-size: cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/about-bg.jpg") center center fixed no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   padding: 80px 0;
 }
 
@@ -767,7 +801,7 @@ span.psw {
 
 #portfolio .portfolio-item {
   background-position: center center;
-  background-size: cover;
+  background-size:100% auto;
   background-repeat: no-repeat;
   position: relative;
   height: 260px;
@@ -1178,7 +1212,7 @@ a.gmap-btn:focus {
 
 .myf .bg-background {
 
-    background:url('../img/footer.png') no-repeat;
+    background:url('../img/footer.png') center center fixed no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
