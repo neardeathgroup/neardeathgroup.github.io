@@ -23,7 +23,7 @@ a {
 }
 
 a:hover, a:active, a:focus {
-  color: #03c5ec;
+  color: ##6b6793;
   outline: none;
   text-decoration: none;
 }
@@ -33,9 +33,16 @@ p {
   margin: 0 0 30px 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5 {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
+  margin: 0 0 20px 0;
+  padding: 0;
+}
+
+h6 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
   margin: 0 0 20px 0;
   padding: 0;
 }
@@ -79,8 +86,8 @@ input[type=submit] {
 
 input[type=submit]:hover {
   background: none;
-  border: 2px solid #f8ecc2;
-  color: #f8ecc2;
+  border: 2px solid #6b6793;
+  color: #6b6793;
 }
 
 /* Back to top button */
@@ -254,7 +261,7 @@ input[type=submit]:hover {
 }
 
 .nav-menu a:hover, .nav-menu li:hover > a, .nav-menu .menu-active > a {
-  color: #6b6793;
+  color: #6b6793; /*nope*/
 }
 
 #header #logo h1 a, #header #logo h1 a:hover {
@@ -370,14 +377,20 @@ input[type=submit]:hover {
   color: #6b6793;
 }
 
+
 .nav-menu ul {
   margin: 4px 0 0 15px;
   box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.08);
 }
 
+.nav-menu .menu-has-children a:hover{
+  color: #f8ecc2;
+}
+
 .nav-menu ul li {
   background: #f8ecc2;
-  border-top: 1px solid #f8ecc2;
+  border: 1px solid #6b6793;
+
 }
 
 .nav-menu ul li:first-child {
@@ -514,6 +527,29 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 .section-title {
   font-size: 32px;
+  color: #584c46;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+}
+.section-sub-title {
+  font-size: 24px;
+  color: #584c46;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+}
+
+.section-sub-sub-title {
+  font-size: 16px;
+  color: #584c46;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+}
+
+.section-des-title {
+  font-size: 20px;
   color: #584c46;
   text-transform: uppercase;
   text-align: center;
@@ -1091,92 +1127,6 @@ span.psw {
   border: 2px solid #6b6793;
   color: #6b6793;
 }
-
-
-/* Google Map */
-#map{
-	position: relative;
-	overflow: hidden;
-	-webkit-transition: all 0.7s;
-	-moz-transition: all 0.7s;
-	transition: all 0.7s;
-}
-
-/* Open and Close Styles */
-.close-map{
-	height: 0;
-}
-
-.open-map{
-	height: 500px;
-}
-
-/* Open and Close Button Styles */
-
-#map-btn1-div {
-	width: 100%;
-	background: #555;
-}
-
-a.gmap-btn.btn-show {
-	display: block;
-}
-a.gmap-btn.btn-hide {
-	display: none;
-}
-a.gmap-btn{
-	height: auto;
-	color: #f8ecc2;
-	text-transform: uppercase;
-	text-align: center;
-	position: relative;
-	z-index: 2;
-	cursor: pointer;
-	-webkit-transition: all 0.7s;
-	-moz-transition: all 0.7s;
-	transition: all 0.7s;
-}
-
-a.gmap-btn:focus {
-	outline: 0;
-}
-
-.close-map-button{
-	padding:10px;
-	opacity: 1;
-}
-
-.open-map-button{
-	padding:10px;
-	opacity: 0.5;
-}
-
-#map .google-map-big-button:hover{
-	background:#3498db;
-	color:#f8ecc2;
-}
-
-/* Google Map Div */
-#map #google-map{
-	height: 500px;
-	display: block;
-	position: absolute;
-	bottom:0;
-	width: 100%;
-	z-index: 1;
-	-webkit-transition: all 0.7s;
-	-moz-transition: all 0.7s;
-	transition: all 0.7s;
-}
-
-.close-map #google-map{
-	opacity: 0;
-}
-
-.open-map #google-map{
-	opacity: 1;
-}
-
 
 
 /* ===========================
