@@ -23,7 +23,7 @@ a {
 }
 
 a:hover, a:active, a:focus {
-  color: #03c5ec;
+  color: ##6b6793;
   outline: none;
   text-decoration: none;
 }
@@ -33,9 +33,16 @@ p {
   margin: 0 0 30px 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5 {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
+  margin: 0 0 20px 0;
+  padding: 0;
+}
+
+h6 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
   margin: 0 0 20px 0;
   padding: 0;
 }
@@ -50,6 +57,37 @@ h1, h2, h3, h4, h5, h6 {
   height: 100%;
   overflow: visible;
   background: #f8ecc2 url("../img/preloader.svg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+new_event_page_promoter-logo{
+  width: 100%;
+}
+
+/*custom button */
+input[type=submit] {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 20px;
+  border-radius: 2px;
+  transition: 0.5s;
+  margin: 10px;
+  background: #6b6793;
+  border: 2px solid #6b6793;
+  color: #f8ecc2;
+}
+
+input[type=submit]:hover {
+  background: none;
+  border: 2px solid #6b6793;
+  color: #6b6793;
 }
 
 /* Back to top button */
@@ -90,7 +128,10 @@ h1, h2, h3, h4, h5, h6 {
   display: table;
   width: 100%;
   height: 100vh;
-  background: url(../img/hero-bg.jpg) top center fixed;
+  background: url(../img/hero-bg.jpg) center center fixed no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
 }
 
@@ -188,7 +229,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #header {
   background: #111;
-  padding: 20px 0;
+  padding: 5px 0;
   height: 90px;
 }
 
@@ -197,6 +238,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header #logo h1 {
+
   font-size: 36px;
   margin: 0;
   padding: 6px 0;
@@ -207,8 +249,23 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
 }
 
-#header #logo h1 a, #header #logo h1 a:hover {
+.nav-menu a {
+  padding: 10px 15px;
+  text-decoration: none;
+  display: inline-block;
   color: #f8ecc2;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  outline: none;
+}
+
+.nav-menu a:hover, .nav-menu li:hover > a, .nav-menu .menu-active > a {
+  color: #6b6793; /*nope*/
+}
+
+#header #logo h1 a, #header #logo h1 a:hover {
+  color: #0000000;
 }
 
 #header #logo img {
@@ -320,14 +377,20 @@ h1, h2, h3, h4, h5, h6 {
   color: #6b6793;
 }
 
+
 .nav-menu ul {
   margin: 4px 0 0 15px;
   box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.08);
 }
 
+.nav-menu .menu-has-children a:hover{
+  color: #f8ecc2;
+}
+
 .nav-menu ul li {
   background: #f8ecc2;
-  border-top: 1px solid #f8ecc2;
+  border: 1px solid #6b6793;
+
 }
 
 .nav-menu ul li:first-child {
@@ -348,11 +411,12 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Mobile Nav Toggle */
 #mobile-nav-toggle {
-  position: fixed;
-  right: 0;
+  position: absolute;
+    right: 0px;
+    width: 100px;
   top: 0;
   z-index: 999;
-  margin: 20px 20px 0 0;
+  margin: 20px 0 0 0;
   border: 0;
   background: none;
   font-size: 26px;
@@ -379,8 +443,8 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 0;
   z-index: 998;
   background: rgba(0, 0, 0, 0.9);
-  left: -260px;
-  width: 260px;
+  left: -400px;
+  width: 400px;
   overflow-y: auto;
   transition: 0.4s;
 }
@@ -463,6 +527,29 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 .section-title {
   font-size: 32px;
+  color: #584c46;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+}
+.section-sub-title {
+  font-size: 24px;
+  color: #584c46;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+}
+
+.section-sub-sub-title {
+  font-size: 16px;
+  color: #584c46;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+}
+
+.section-des-title {
+  font-size: 20px;
   color: #584c46;
   text-transform: uppercase;
   text-align: center;
@@ -558,7 +645,11 @@ span.psw {
 }
 
 #intro .intro-container {
-  background: url(../img/intro-img.jpg) left top no-repeat;
+  background: url(../img/intro-img.jpg) center center fixed no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 #intro .intro-content {
@@ -582,7 +673,10 @@ span.psw {
 /* Services Section
 --------------------------------*/
 #services {
-  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("img/services-bg.jpg") fixed center center;
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("img/services-bg.jpg") center center fixed no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   padding: 80px 0 60px 0;
 }
@@ -632,8 +726,11 @@ span.psw {
 /* about Section
 --------------------------------*/
 #about {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/about-bg.jpg") fixed center center;
-  background-size: cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/about-bg.jpg") center center fixed no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   padding: 80px 0;
 }
 
@@ -740,7 +837,7 @@ span.psw {
 
 #portfolio .portfolio-item {
   background-position: center center;
-  background-size: cover;
+  background-size:100% auto;
   background-repeat: no-repeat;
   position: relative;
   height: 260px;
@@ -888,8 +985,7 @@ span.psw {
 }
 
 #team .member span {
-  font-style: italic;
-  display: block;
+  display: inline-block;
   font-size: 13px;
 }
 
@@ -923,6 +1019,13 @@ span.psw {
   height: auto;
   opacity: 1;
 }
+#team .ban_image {
+  display: block;
+  width: 40%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto
+}
 
 #team .overlay {
   border-radius: 55%;
@@ -930,7 +1033,7 @@ span.psw {
   top: 0;
   bottom: 0;
   left: 1;
-  right: 1;
+  right: 1
   height: 100%;
   width: 97%;
   opacity: 0;
@@ -1021,101 +1124,15 @@ span.psw {
 
 #contact .form button[type="submit"] {
   background: #6b6793;
-  border: 0;
-  padding: 10px 24px;
+  border: 2px solid #6b6793;
   color: #f8ecc2;
-  transition: 0.4s;
 }
 
 #contact .form button[type="submit"]:hover {
-  background: #25d8fc;
+  background: none;
+  border: 2px solid #6b6793;
+  color: #6b6793;
 }
-
-
-/* Google Map */
-#map{
-	position: relative;
-	overflow: hidden;
-	-webkit-transition: all 0.7s;
-	-moz-transition: all 0.7s;
-	transition: all 0.7s;
-}
-
-/* Open and Close Styles */
-.close-map{
-	height: 0;
-}
-
-.open-map{
-	height: 500px;
-}
-
-/* Open and Close Button Styles */
-
-#map-btn1-div {
-	width: 100%;
-	background: #555;
-}
-
-a.gmap-btn.btn-show {
-	display: block;
-}
-a.gmap-btn.btn-hide {
-	display: none;
-}
-a.gmap-btn{
-	height: auto;
-	color: #f8ecc2;
-	text-transform: uppercase;
-	text-align: center;
-	position: relative;
-	z-index: 2;
-	cursor: pointer;
-	-webkit-transition: all 0.7s;
-	-moz-transition: all 0.7s;
-	transition: all 0.7s;
-}
-
-a.gmap-btn:focus {
-	outline: 0;
-}
-
-.close-map-button{
-	padding:10px;
-	opacity: 1;
-}
-
-.open-map-button{
-	padding:10px;
-	opacity: 0.5;
-}
-
-#map .google-map-big-button:hover{
-	background:#3498db;
-	color:#f8ecc2;
-}
-
-/* Google Map Div */
-#map #google-map{
-	height: 500px;
-	display: block;
-	position: absolute;
-	bottom:0;
-	width: 100%;
-	z-index: 1;
-	-webkit-transition: all 0.7s;
-	-moz-transition: all 0.7s;
-	transition: all 0.7s;
-}
-
-.close-map #google-map{
-	opacity: 0;
-}
-
-.open-map #google-map{
-	opacity: 1;
-}
-
 
 
 /* ===========================
@@ -1151,7 +1168,7 @@ a.gmap-btn:focus {
 
 .myf .bg-background {
 
-    background:url('../img/footer.png') no-repeat;
+    background:url('../img/footer.png') center center fixed no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
