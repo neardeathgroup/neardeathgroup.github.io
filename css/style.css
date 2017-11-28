@@ -985,8 +985,7 @@ span.psw {
 }
 
 #team .member span {
-  font-style: italic;
-  display: block;
+  display: inline-block;
   font-size: 13px;
 }
 
@@ -1020,6 +1019,13 @@ span.psw {
   height: auto;
   opacity: 1;
 }
+#team .ban_image {
+  display: block;
+  width: 40%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto
+}
 
 #team .overlay {
   border-radius: 55%;
@@ -1027,7 +1033,7 @@ span.psw {
   top: 0;
   bottom: 0;
   left: 1;
-  right: 1;
+  right: 1
   height: 100%;
   width: 97%;
   opacity: 0;
